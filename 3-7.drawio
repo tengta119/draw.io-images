@@ -1,9 +1,96 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5">
   <diagram name="第 1 页" id="JFnY_-4_t99Zl4_ljFSJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1579" dy="719" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="SrTjl67_vCVBXJDRhSVr-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-44.71430969238281" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-6" value="1、请求登录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="SrTjl67_vCVBXJDRhSVr-2">
+          <mxGeometry x="-0.1685" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="SrTjl67_vCVBXJDRhSVr-1" target="SrTjl67_vCVBXJDRhSVr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-14" value="2、扫码登录" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="SrTjl67_vCVBXJDRhSVr-13">
+          <mxGeometry x="0.0395" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="SrTjl67_vCVBXJDRhSVr-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100.14277648925781" y="420.4286766052246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-22" value="3、请求完二维码后，前端会携带&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;sceneStr&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&amp;nbsp;轮询检测&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="SrTjl67_vCVBXJDRhSVr-20">
+          <mxGeometry x="0.0985" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-203" y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="SrTjl67_vCVBXJDRhSVr-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="223.28575134277344" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-7" value="请求 ticket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="SrTjl67_vCVBXJDRhSVr-4">
+          <mxGeometry x="-0.2047" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-3" value="浏览器生成唯一表示，请求时携带&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;sceneStr&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-44" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SrTjl67_vCVBXJDRhSVr-5" target="SrTjl67_vCVBXJDRhSVr-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="529.5713958740234" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="522" y="70" />
+              <mxPoint x="358" y="212" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-5" value="创建 ticket&lt;div&gt;保存&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;sceneStr, ticket&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222" y="20" width="171" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="SrTjl67_vCVBXJDRhSVr-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="211.8572235107422" y="281.57143783569336" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-17" value="回调" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="SrTjl67_vCVBXJDRhSVr-15">
+          <mxGeometry x="-0.1394" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-10" value="前端根据 ticket 请求微信平台生成登录二维码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-44" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-19" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="SrTjl67_vCVBXJDRhSVr-16" target="SrTjl67_vCVBXJDRhSVr-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-16" value="用户扫码成功后，微信会请求后端地址" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-18" value="将&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;ticket, openid&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;保存起来&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="250" width="166" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-21" value="检测是否登录成功" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-98" y="386" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-23" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;sceneStr, ticket&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="22" y="386" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="SrTjl67_vCVBXJDRhSVr-24" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;ticket, openid&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="22" y="420" width="120" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
